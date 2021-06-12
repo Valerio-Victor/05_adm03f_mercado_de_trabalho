@@ -1,0 +1,294 @@
+---
+title: 'MERCADO DE TRABALHO </br> (ENCONTRO SEMANALA - AULA 05)'
+subtitle: 'ADM03F - Macroeconomia'
+author: 'Autor: Victor Valerio'
+date: 'Última atualização: `r format(Sys.Date(),"%d-%m-%Y")`'
+output:
+  xaringan::moon_reader:
+    css: [xaringan-themer.css]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+
+
+library(xaringanthemer)
+
+
+style_mono_light(base_color = '#23395b')
+
+
+```
+
+
+```{r xaringan-scribble, echo=FALSE}
+
+
+xaringanExtra::use_scribble()
+
+xaringanExtra::use_search(show_icon = TRUE)
+
+
+```
+
+
+## TÓPICOS ABORDADOS
+
+
+</br>
+
+
+- [**INTRODUÇÃO**](#introducao)
+
+
+</br>
+
+
+- [**PRINCIPAIS CONCEITOS**](#princ_conceitos)
+
+
+</br>
+
+
+- [**O BRASIL EM PERSPECTIVA**](#brasil)
+
+
+---
+class: inverse, center, middle 
+name: introducao
+
+
+## INTRODUÇÃO
+
+
+---
+<div style="text-align: justify">
+
+
+## INTRODUÇÃO
+
+
+**CONCEITO**
+
+
+- Como visto, o mercado de trabalho consiste na interação entre dois setores institucionais, são eles,
+**famílias (OFERTA DE TRABALHO)** e **empresas (DEMANDA DE TRABALHO)**. É possível visualizar a 
+interação a partir do fluxo circular da renda;
+
+
+</br>
+
+
+- As **famílias** concedem sua força de trabalho às empresas e, assim, o próprio trabalho corresponde
+a forma de **obtenção da renda (denominada de salário)**;
+
+
+</br>
+
+
+- As **empresas** utilizam a força de trabalho no processo de produção, de modo a ofertar os bens e 
+serviços na economia, então, os **salários pagos às famílias representam uma fração dos custos** das 
+empresas.
+
+
+---
+class: inverse
+
+
+## FLUXO CIRCULAR DA RENDA (AMPLIADO)
+
+
+```{r, echo = F, warning = F, message = F, error = F, out.width= '100%', fig.align = 'center'}
+
+
+
+knitr::include_graphics('fcr_ampliado.png', dpi = 300)
+
+
+
+```
+
+
+---
+<div style="text-align: justify">
+
+
+## INTRODUÇÃO
+
+
+**FONTES DE DADOS**
+
+
+- Cadastro Geral de Empregados e Desempregados [(**CAGED**)](http://pdet.mte.gov.br/o-que-e-caged):
+
+
+</br>
+
+
+"_[...] Constitui importante fonte de informação do mercado de trabalho de âmbito nacional e de 
+periodicidade mensal. Foi criado como instrumento de acompanhamento e de fiscalização do processo de 
+admissão e de dispensa de trabalhadores regidos pela CLT, com o objetivo de assistir os desempregados
+e de apoiar medidas contra o desemprego. A partir de 1986, passou a ser utilizado como suporte ao 
+pagamento do seguro-desemprego e, mais recentemente, tornou-se, também, um relevante instrumento à 
+reciclagem profissional e à recolocação do trabalhador no mercado de trabalho_".
+
+
+</br>
+
+
+- Informações sobre **admitidos** e **demitidos** (**emprego formal**);
+
+
+</br>
+
+
+- Fonte de dados: **Ministério da Economia**.
+
+
+---
+<div style="text-align: justify">
+
+
+## INTRODUÇÃO
+
+
+**FONTES DE DADOS**
+
+
+- Pesquisa Nacional por Amostra de Domicílios Contínua [(**PNAD Contínua**)](https://www.ibge.gov.br/estatisticas/sociais/trabalho/9173-pesquisa-nacional-por-amostra-de-domicilios-continua-trimestral.html?=&t=o-que-e&utm_source=landing&utm_medium=explica&utm_campaign=desemprego): 
+
+
+</br>
+
+
+"_[...] Visa acompanhar as flutuações trimestrais e a evolução, no curto, médio e longo prazos, da força de trabalho, e outras informações necessárias para o estudo do desenvolvimento socioeconômico do País. Para atender a tais objetivos, a pesquisa foi planejada para produzir indicadores trimestrais sobre a força de trabalho e indicadores anuais sobre temas suplementares permanentes (como trabalho e outras formas de trabalho_".
+
+
+</br>
+
+
+- Informações sobre a **Força de Trabalho** (**emprego formal e informal**);
+  
+  
+</br>
+
+
+- Fonte de dados: **Instituto Brasileiro de Geografia e Estatística (IBGE)**.
+
+
+---
+<div style="text-align: justify">
+
+
+## INTRODUÇÃO
+
+
+**CONCEITO**
+
+
+</br>
+
+
+- Apesar de poucos conceitos aparentemente simples, a análise sobre as estatísticas do mercado de 
+trabalho podem nos induzir ao erro, por exemplo:
+
+  - Em uma análise supérficial, uma diminuição no nível de desemprego sempre representa uma melhora 
+  da situação econômica mas, na realidade, pode representar uma situação catastrófica.
+
+
+</br>
+
+
+- Devido a este fato, torna-se necessário realizar uma série de definições iniciais sobre o tema.
+
+
+---
+class: inverse, center, middle 
+name: princ_conceitos
+
+
+## PRINCIPAIS CONCEITOS
+
+
+---
+<div style="text-align: justify">
+
+
+## PRINCIPAIS CONCEITOS
+
+
+**CONCEITO**
+
+
+</br>
+
+
+- **População em Idade de Trabalhar** (**PIA**): Pessoas em idade de trabalhar (acima de 14 anos). 
+Atualmente, cerca de 170 milhões de pessoas;
+
+
+</br>
+
+
+- **Força de Trabalho**: Pessoas em idade de trabalhar (acima de 14 anos e não aposentados) e que 
+estão procurando emprego (associado ao conceito de **População Economicamente Ativa - PEA**). 
+Atualmente, cerca de 100,7 milhões de pessoas;
+
+
+</br>
+
+
+- **Ocupados**: Pessoas que compõem a força de trabalho e estão trabalhando em emprego formal ou 
+informal (associado ao conceito de **empregado**). Atualmente, cerca de 85,9 milhões de pessoas.
+
+
+---
+<div style="text-align: justify">
+
+
+## PRINCIPAIS CONCEITOS
+
+
+**CONCEITO**
+
+
+</br>
+
+
+- **Desocupado**: Pessoas que compõem a força de trabalho e não estão trabalhando, porém, **estão** 
+procurando emprego (associado ao conceito de **desempregado**). Atualmente, cerca de 14,8 milhões de 
+pessoas;
+
+
+</br>
+
+
+- **Taxa de Desocupação** (**Taxa de Desemprego**): Razão entre o número de pessoas desocupadas e a
+força de trabalho. Atualmente, cerca de 14,7%;
+
+
+</br>
+
+
+- **Desalentado**: Pessoas que compõem a força de trabalho e não estão trabalhando, porém, **não estão** 
+procurando emprego (associado ao conceito de **desempregado**). Atualmente, cerca de 6 milhões de 
+pessoas;
+
+
+
+
+
+---
+class: inverse, center, middle 
+name: brasil
+
+
+## O BRASIL EM PERSPECTIVA
+
+
+
+
