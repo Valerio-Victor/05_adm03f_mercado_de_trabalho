@@ -274,9 +274,9 @@ força de trabalho. Atualmente, cerca de 14,7%;
 </br>
 
 
-- **Desalentado**: Pessoas que compõem a força de trabalho e não estão trabalhando, porém, **não estão** 
-procurando emprego (associado ao conceito de **desempregado**). Atualmente, cerca de 6 milhões de 
-pessoas;
+- **Desalentado**: Pessoas que compõem a força de trabalho potencial e não estão trabalhando, porém, 
+**não estão** procurando emprego (associado ao conceito de **desempregado**). Atualmente, cerca de 
+6 milhões de pessoas;
 
 
 
